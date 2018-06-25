@@ -257,3 +257,5 @@ var Aside = function() {
     });
   });
 }(jQuery);
+// Back to top button
+$(function(){$(window).scroll(function(){$(this).scrollTop()>600?$(".myartotop").addClass('mynabinf'):$(".myartotop").removeClass('mynabinf')}),$(".myartotop").click(function(){return $("html,body").animate({scrollTop:0},600),!1})});
