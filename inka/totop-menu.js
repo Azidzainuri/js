@@ -61,4 +61,3 @@ $(function() {
     });
   });
 }(jQuery);
-var numposts=1,numposts2=4,showpostthumbnails=!0,showpostthumbnails2=!0,displaymore=!1,displaymore2=!1,showcommentnum=!0,showcommentnum2=!1,showpostdate=!0,showpostdate2=!0,showpostsummary=!0,numchars=75,thumb_width=280,thumb_height=200,thumb_width2=100,thumb_height2=100,no_thumb=&quot; https://lh3.googleusercontent.com/-htHpxFoFKFU/VtfvuTf4DwI/AAAAAAAAEVM/nJicgrZGWlk/s340-Ic42/newsmartpik_thumb.png&quot;,no_thumb2=&quot; https://lh3.googleusercontent.com/-v1FrVSrWAI4/VtfvuOMgx0I/AAAAAAAAEVI/dF8p7IUnk1k/s100-Ic42/newsmartpikthumb_small.png&quot;;
