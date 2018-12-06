@@ -1,6 +1,4 @@
 $(function(){$(window).scroll(function(){$(this).scrollTop()>600?$(".myartotop").addClass('mynabinf'):$(".myartotop").removeClass('mynabinf')}),$(".myartotop").click(function(){return $("html,body").animate({scrollTop:0},600),!1})});
-//<![CDATA[
-// Popular Post
 var newidth=100;var neweight=72;$(".popular-posts .item-thumbnail img,ul.recent_posts_myar img").each(function(){var t=$(this).attr("width");$(this).attr("width",newidth),$(this).attr("height",neweight),$(this).attr("src",$(this).attr("src").replace("/s72-c/","/w"+newidth+"-h"+neweight+"-c/"))}),$(".PopularPosts .item-snippet").text(function(t,i){return i.substr(0,72) + "..."});
 $(function() {
   $('a[href="#searchfs"]')["on"]("click", function(result) {
@@ -63,4 +61,3 @@ $(function() {
     });
   });
 }(jQuery);
-//]]>
